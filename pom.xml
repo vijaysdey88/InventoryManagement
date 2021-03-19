@@ -98,6 +98,7 @@
                 <configuration>
                     <deploy.projectId>absolute-code-307716</deploy.projectId>
                     <deploy.stopPreviousVersion>true</deploy.stopPreviousVersion>
+                    <deploy.version>3</deploy.version>
                 </configuration>
             </plugin>
         </plugins>
