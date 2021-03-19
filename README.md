@@ -1,4 +1,4 @@
-# Spring GCP: Inventory Management Rest Service 
+# Spring GCP: Inventory Management Rest Service for Learning App Engine 
 **About**  
   
 This is a demo app built on Spring, to test out a CI/CD deployment plan on Google Cloud Platform. This demo is designed with the goal of integrating GCP services to ease deployment on a GCP Cloud build pipeline.
