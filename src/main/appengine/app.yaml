@@ -1,3 +1,4 @@
+service: inventory-mgmt-vsd
 env: flex
 runtime: java
 runtime_config:
