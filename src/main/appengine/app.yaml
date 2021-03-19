@@ -12,15 +12,15 @@ resources:
       volume_type: tmpfs
       size_gb: 0.5
 
-handlers:
-  - url: /.*
-    script: this field is required, but ignored
-    secure: always
-    redirect_http_response_code: 301
-
 automatic_scaling:
   cool_down_period_sec: 120
   min_num_instances: 1
   max_num_instances: 1
   cpu_utilization:
     target_utilization: 0.5
+
+handlers:
+  - url: /.*
+    script: this field is required, but ignored
+    secure: always
+    redirect_http_response_code: 301

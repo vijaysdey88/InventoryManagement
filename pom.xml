@@ -97,7 +97,7 @@
                 <version>2.2.0</version>
                 <configuration>
                     <deploy.projectId>absolute-code-307716</deploy.projectId>
-                    <deploy.version>1</deploy.version>
+                    <deploy.stopPreviousVersion>true</deploy.stopPreviousVersion>
                 </configuration>
             </plugin>
         </plugins>
